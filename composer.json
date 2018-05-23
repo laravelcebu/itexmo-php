@@ -1,0 +1,39 @@
+{
+  "name": "laravelcebu/iTexMo-php",
+  "description": "Laravel package for the iTexMo SMS API",
+  "keywords": [
+    "laravel",
+    "laravel-cebu",
+    "sms-gateway",
+    "sms"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bertrand Kintanar",
+      "email": "bertrand@imakintanar.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/laravelcebu/iTexMo-php/issues",
+    "source": "https://github.com/laravelcebu/iTexMo-php"
+  },
+  "require": {
+    "php": "7.*"
+  },
+  "require-dev": {
+    "laravel/laravel": "5.5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "LaravelCebu\\Itexmo\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "aliases": {
+        "SMS": "LaravelCebu\\Itexmo\\Facades\\SMSFacade"
+      }
+    }
+  }
+}
