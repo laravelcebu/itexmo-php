@@ -9,6 +9,6 @@ class TenancyFacade extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return Itexmo::class;
+        return 'itexmo';
     }
 }
